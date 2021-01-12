@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import profile from "./myProfile.jpeg";
 import { H1, P, FOOTER } from "./styles";
 
 function App() {
