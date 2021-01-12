@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const H1 = styled.h1(() => ({
-  color: "red",
+  color: "#000066",
   position: "relative",
 }));
 
@@ -12,16 +12,14 @@ export const P = styled.p(() => ({
 }));
 
 export const FOOTER = styled.footer(() => ({
-  position: "absolute",
-  bottom: 0,
+  background: "white",
   width: "100%",
-  height: "2.5rem",
-  color: "white"
+  position: "fixed",
+  padding: "10px",
+  bottom: "0",
 }));
 
-export const APPHEADER = styled.header(() => ({
-    backgroundColor: "#282c34",
-    minHeight: "100vh",
-    fontSize: "calc(10px + 2vmin)",
-    color: "white"
+export const TABLE = styled.table(() => ({
+  marginLeft: "auto",
+  marginRight: "auto"
 }));
