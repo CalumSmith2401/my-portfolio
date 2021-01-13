@@ -23,6 +23,21 @@
   color: black;
 }
 
+.App-body {
+  position: relative;
+  background-color: "white";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  background-color: lightgrey;
+}
+
+.img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .Avatar {
   height: 300px;
   width: 300px;

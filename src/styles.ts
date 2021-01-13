@@ -38,11 +38,6 @@ export const FOOTER = styled.footer(() => ({
   top: "0",
 }));
 
-export const A = styled.a(() => ({
-  color: "yellow",
-  textDecoration: "none",
-}));
-
 export const TABLE = styled.table(() => ({
   marginLeft: "auto",
   marginRight: "auto",

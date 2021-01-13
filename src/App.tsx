@@ -1,17 +1,28 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
+
+// Styles
 import "./App.css";
 import { H1, P, FOOTER, TABLE, H2, P1, BioDiv } from "./styles";
-import avatar from "./AvatarMaker.svg";
-import GitHubIcon from "./GitHubIcon.svg";
-import LinkedInIcon from "./LinkedInIcon.svg";
-import TreehousePortfolio from "./TreehouseNameSearcher.png";
-import ConnectFourPortfolio from "./ConnectFour.png";
+
+// Images
+import avatar from "./Images/AvatarMaker.svg";
+import GitHubIcon from "./Images/GitHubIcon.svg";
+import LinkedInIcon from "./Images/LinkedInIcon.svg";
+import JavaScriptIcon from "./Images/JavaScriptIcon.svg";
+import HTMLIcon from "./Images/HTMLIcon.png";
+import CSSIcon from "./Images/CSSIcon.png";
+import ReactIcon from "./Images/ReactIcon.png";
+import TypeScriptIcon from "./Images/TypeScriptIcon.png";
+
+// Portfolio Examples
+import TreehousePortfolio from "./Images/TreehouseNameSearcher.png";
+import ConnectFourPortfolio from "./Images/ConnectFour.png";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-body">
         <H1>Calum Smith</H1>
         <H2>Front End Javascript Developer</H2>
         <img src={avatar} className="Avatar" alt="avatar" />
@@ -26,7 +37,9 @@ function App() {
             JavaScript(React).
           </P1>
         </BioDiv>
-        <H2>Projects:</H2>
+      </body>
+      <body className="App-body">
+        <H2>Projects</H2>
         <TABLE>
           <tr>
             <th>
@@ -49,6 +62,15 @@ function App() {
             </th>
           </tr>
         </TABLE>
+      </body>
+      <body>
+        <H2>Skills</H2>
+        <img src={JavaScriptIcon} className="img" width="60px" height="60px" />
+        <img src={HTMLIcon} className="img" width="60px" height="60px" />
+        <img src={CSSIcon} className="img" width="60px" height="60px" />
+        <img src={ReactIcon} className="img" width="80px" height="60px" />
+        <img src={TypeScriptIcon} className="img" width="60px" height="60px" />
+        <img src={GitHubIcon} className="img" width="60px" height="60px" />
       </body>
       <FOOTER>
         <a href="https://github.com/CalumSmith2401">
