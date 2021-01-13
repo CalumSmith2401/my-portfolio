@@ -14,12 +14,30 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  position: relative;
+  background-color: "white";
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+}
+
+.Avatar {
+  height: 300px;
+  width: 300px;
+  pointer-events: none;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SocialMedia {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .App-link {

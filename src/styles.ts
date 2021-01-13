@@ -1,25 +1,50 @@
 import styled from "@emotion/styled";
 
 export const H1 = styled.h1(() => ({
-  color: "#000066",
   position: "relative",
+  fontSize: "70px",
+  marginTop: "150px",
+}));
+
+export const H2 = styled.h2(() => ({
+  fontSize: "40px",
 }));
 
 export const P = styled.p(() => ({
-  color: "white",
-  position: "relative",
-  bottom: 0
+  color: "black",
+  textAlign: "center",
+  boxSizing: "border-box",
+  bottom: 0,
+}));
+
+export const P1 = styled.p(() => ({
+  color: "black",
+  textAlign: "center",
+  boxSizing: "border-box",
+  bottom: 0,
+}));
+
+export const BioDiv = styled.div(() => ({
+  width: "35%",
+  marginLeft: "auto",
+  marginRight: "auto"
 }));
 
 export const FOOTER = styled.footer(() => ({
-  background: "white",
+  background: "grey",
   width: "100%",
   position: "fixed",
-  padding: "10px",
-  bottom: "0",
+  padding: "5px",
+  top: "0",
+}));
+
+export const A = styled.a(() => ({
+  color: "yellow",
+  textDecoration: "none",
 }));
 
 export const TABLE = styled.table(() => ({
   marginLeft: "auto",
-  marginRight: "auto"
+  marginRight: "auto",
+  borderSpacing: "50px 0px"
 }));
