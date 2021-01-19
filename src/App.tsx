@@ -45,21 +45,25 @@ function App() {
           <tr>
             <th>
               <P>Treehouse Name Searcher</P>
-              <img
-                src={TreehousePortfolio}
-                alt="treehouseNameSearcher"
-                width="350px"
-                height="200px"
-              />
+              <a>
+                <img
+                  src={TreehousePortfolio}
+                  alt="treehouseNameSearcher"
+                  width="350px"
+                  height="200px"
+                />
+              </a>
             </th>
             <th>
               <P>Connect Four</P>
-              <img
-                src={ConnectFourPortfolio}
-                alt="connectFour"
-                width="350px"
-                height="200px"
-              />
+              <a href="https://trusting-hodgkin-a6c0c6.netlify.app/">
+                <img
+                  src={ConnectFourPortfolio}
+                  alt="connectFour"
+                  width="350px"
+                  height="200px"
+                />
+              </a>
             </th>
             <th>
               <P>To Do List</P>
