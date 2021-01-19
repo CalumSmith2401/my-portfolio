@@ -45,14 +45,12 @@ function App() {
           <tr>
             <th>
               <P>Treehouse Name Searcher</P>
-              <a>
-                <img
-                  src={TreehousePortfolio}
-                  alt="treehouseNameSearcher"
-                  width="350px"
-                  height="200px"
-                />
-              </a>
+              <img
+                src={TreehousePortfolio}
+                alt="treehouseNameSearcher"
+                width="350px"
+                height="200px"
+              />
             </th>
             <th>
               <P>Connect Four</P>
