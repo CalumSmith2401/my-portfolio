@@ -3,7 +3,7 @@ import React from "react";
 
 // Styles
 import "./App.css";
-import { H1, P, FOOTER, TABLE, H2, P1, BioDiv } from "./styles";
+import { H1, P, FOOTER, TABLE, H2, P1, BioDiv, SkillsBody } from "./styles";
 
 // Images
 import avatar from "./Images/AvatarMaker.svg";
@@ -18,6 +18,7 @@ import TypeScriptIcon from "./Images/TypeScriptIcon.png";
 // Portfolio Examples
 import TreehousePortfolio from "./Images/TreehouseNameSearcher.png";
 import ConnectFourPortfolio from "./Images/ConnectFour.png";
+import TodoListPortfolio from "./Images/TodoList.png";
 
 function App() {
   return (
@@ -60,10 +61,21 @@ function App() {
                 height="200px"
               />
             </th>
+            <th>
+              <P>To Do List</P>
+              <a href="https://dazzling-hopper-974d18.netlify.app/">
+                <img
+                  src={TodoListPortfolio}
+                  alt="todolist"
+                  width="350px"
+                  height="200px"
+                />
+              </a>
+            </th>
           </tr>
         </TABLE>
       </body>
-      <body>
+      <SkillsBody>
         <H2>Skills</H2>
         <img src={JavaScriptIcon} className="img" width="60px" height="60px" />
         <img src={HTMLIcon} className="img" width="60px" height="60px" />
@@ -71,7 +83,7 @@ function App() {
         <img src={ReactIcon} className="img" width="80px" height="60px" />
         <img src={TypeScriptIcon} className="img" width="60px" height="60px" />
         <img src={GitHubIcon} className="img" width="60px" height="60px" />
-      </body>
+      </SkillsBody>
       <FOOTER>
         <a href="https://github.com/CalumSmith2401">
           <img src={GitHubIcon} className="SocialMedia" alt="github" />

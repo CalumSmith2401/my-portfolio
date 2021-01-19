@@ -43,3 +43,7 @@ export const TABLE = styled.table(() => ({
   marginRight: "auto",
   borderSpacing: "50px 0px"
 }));
+
+export const SkillsBody = styled.body(() => ({
+  paddingBottom: "40px",
+}));
