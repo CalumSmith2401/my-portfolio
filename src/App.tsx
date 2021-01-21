@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <header className="App-body">
         <H1>Calum Smith</H1>
-        <H2>Front End Javascript Developer</H2>
+        <H2>Full Stack Junior JavaScript Developer</H2>
         <img src={avatar} className="Avatar" alt="avatar" />
       </header>
       <body className="App-header">
@@ -44,7 +44,7 @@ function App() {
         <TABLE>
           <tr>
             <th>
-              <P>Treehouse Name Searcher</P>
+              <P>Name Searcher</P>
               <img
                 src={TreehousePortfolio}
                 alt="treehouseNameSearcher"
@@ -58,6 +58,7 @@ function App() {
                 <img
                   src={ConnectFourPortfolio}
                   alt="connectFour"
+                  className="portfolio"
                   width="350px"
                   height="200px"
                 />

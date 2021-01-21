@@ -27,7 +27,8 @@ export const P1 = styled.p(() => ({
 export const BioDiv = styled.div(() => ({
   width: "35%",
   marginLeft: "auto",
-  marginRight: "auto"
+  marginRight: "auto",
+  marginBottom: "200px",
 }));
 
 export const FOOTER = styled.footer(() => ({
@@ -41,7 +42,7 @@ export const FOOTER = styled.footer(() => ({
 export const TABLE = styled.table(() => ({
   marginLeft: "auto",
   marginRight: "auto",
-  borderSpacing: "50px 0px"
+  borderSpacing: "50px 0px",
 }));
 
 export const SkillsBody = styled.body(() => ({
