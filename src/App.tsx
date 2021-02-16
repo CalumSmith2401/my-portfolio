@@ -3,7 +3,17 @@ import React from "react";
 
 // Styles
 import "./App.css";
-import { H1, P, FOOTER, TABLE, H2, P1, BioDiv, SkillsBody } from "./styles";
+import {
+  H1,
+  P,
+  FOOTER,
+  PORTFOLIO,
+  H2,
+  P1,
+  BioDiv,
+  SkillsBody,
+  H3,
+} from "./styles";
 
 // Images
 import avatar from "./Images/AvatarMaker.svg";
@@ -40,34 +50,32 @@ function App() {
       </body>
       <body className="App-body">
         <H2>Projects</H2>
-        <TABLE>
-          <tr>
-            <th>
-              <P>Connect Four</P>
-              <a href="https://trusting-hodgkin-a6c0c6.netlify.app/">
-                <img
-                  src={ConnectFourPortfolio}
-                  alt="connectFour"
-                  className="portfolio"
-                  width="350px"
-                  height="200px"
-                />
-              </a>
-            </th>
-            <th>
-              <P>To Do List</P>
-              <a href="https://dazzling-hopper-974d18.netlify.app/">
-                <img
-                  src={TodoListPortfolio}
-                  alt="todolist"
-                  className="portfolio"
-                  width="350px"
-                  height="200px"
-                />
-              </a>
-            </th>
-          </tr>
-        </TABLE>
+        <PORTFOLIO>
+          <div>
+            <H3>Connect Four</H3>
+            <a href="https://trusting-hodgkin-a6c0c6.netlify.app/">
+              <img
+                src={ConnectFourPortfolio}
+                alt="connectFour"
+                className="portfolio"
+                width="350px"
+                height="200px"
+              />
+            </a>
+          </div>
+          <div>
+            <H3>To Do List</H3>
+            <a href="https://dazzling-hopper-974d18.netlify.app/">
+              <img
+                src={TodoListPortfolio}
+                alt="todolist"
+                className="portfolio"
+                width="350px"
+                height="200px"
+              />
+            </a>
+          </div>
+        </PORTFOLIO>
       </body>
       <SkillsBody>
         <H2>Skills</H2>

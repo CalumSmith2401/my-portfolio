@@ -10,6 +10,10 @@ export const H2 = styled.h2(() => ({
   fontSize: "40px",
 }));
 
+export const H3 = styled.h3(() => ({
+  fontSize: "30px",
+}));
+
 export const P = styled.p(() => ({
   color: "black",
   textAlign: "center",
@@ -38,12 +42,23 @@ export const FOOTER = styled.footer(() => ({
   top: "0",
 }));
 
-export const TABLE = styled.table(() => ({
+export const PORTFOLIO = styled.div(() => ({
+  [mediaQueries[1]]: {
+    display: "flex",
+    flexDirection: "column",
+  },
+  display: "flex",
   marginLeft: "auto",
   marginRight: "auto",
-  borderSpacing: "50px 0px",
 }));
 
 export const SkillsBody = styled.body(() => ({
+  [mediaQueries[0]]: {},
   paddingBottom: "40px",
 }));
+
+export const breakpoints: number[] = [576, 768, 992, 1200];
+
+export const mediaQueries: string[] = breakpoints.map(
+  (bp) => `@media (max-width: ${bp}px)`
+);
