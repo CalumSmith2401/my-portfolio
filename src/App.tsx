@@ -5,7 +5,6 @@ import React from "react";
 import "./App.css";
 import {
   H1,
-  P,
   FOOTER,
   PORTFOLIO,
   H2,
