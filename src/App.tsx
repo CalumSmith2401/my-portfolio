@@ -16,7 +16,6 @@ import ReactIcon from "./Images/ReactIcon.png";
 import TypeScriptIcon from "./Images/TypeScriptIcon.png";
 
 // Portfolio Examples
-import TreehousePortfolio from "./Images/TreehouseNameSearcher.png";
 import ConnectFourPortfolio from "./Images/ConnectFour.png";
 import TodoListPortfolio from "./Images/TodoList.png";
 
@@ -44,15 +43,6 @@ function App() {
         <TABLE>
           <tr>
             <th>
-              <P>Name Searcher</P>
-              <img
-                src={TreehousePortfolio}
-                alt="treehouseNameSearcher"
-                width="350px"
-                height="200px"
-              />
-            </th>
-            <th>
               <P>Connect Four</P>
               <a href="https://trusting-hodgkin-a6c0c6.netlify.app/">
                 <img
@@ -70,6 +60,7 @@ function App() {
                 <img
                   src={TodoListPortfolio}
                   alt="todolist"
+                  className="portfolio"
                   width="350px"
                   height="200px"
                 />

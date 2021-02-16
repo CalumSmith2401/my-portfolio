@@ -28,7 +28,6 @@ export const BioDiv = styled.div(() => ({
   width: "35%",
   marginLeft: "auto",
   marginRight: "auto",
-  marginBottom: "200px",
 }));
 
 export const FOOTER = styled.footer(() => ({
