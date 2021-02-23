@@ -52,9 +52,17 @@ export const PORTFOLIO = styled.div(() => ({
   marginRight: "auto",
 }));
 
+export const EXAMPLES = styled.div(() => ({
+  width: "35%",
+  marginLeft: "auto",
+  marginRight: "auto",
+}));
+
 export const SkillsBody = styled.body(() => ({
   [mediaQueries[0]]: {},
-  paddingBottom: "40px",
+  paddingBottom: "100px",
+  paddingTop: "20px",
+  background: "lightgrey",
 }));
 
 export const breakpoints: number[] = [576, 768, 992, 1200];

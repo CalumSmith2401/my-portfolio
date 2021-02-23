@@ -10,6 +10,7 @@ import {
   H2,
   P1,
   BioDiv,
+  EXAMPLES,
   SkillsBody,
   H3,
 } from "./styles";
@@ -23,7 +24,7 @@ import HTMLIcon from "./Images/HTMLIcon.png";
 import CSSIcon from "./Images/CSSIcon.png";
 import ReactIcon from "./Images/ReactIcon.png";
 import TypeScriptIcon from "./Images/TypeScriptIcon.png";
-
+import Leaderboard from "./Images/Leaderboards.png";
 // Portfolio Examples
 import ConnectFourPortfolio from "./Images/ConnectFour.png";
 import TodoListPortfolio from "./Images/TodoList.png";
@@ -76,12 +77,27 @@ function App() {
           </div>
         </PORTFOLIO>
       </body>
+      <EXAMPLES>
+        <H2>Climate Clever Internship Work</H2>
+        <P1>
+          While doing the 5 week internship with Climate Clever myself and 3
+          other interns worked on a leaderboard for users which are signed up to
+          the Climate Clever website which displays the top 3 rankings and the
+          current logged in users position
+        </P1>
+        <img
+          src={Leaderboard}
+          className="leaderboard"
+          width="500px"
+          height="550px"
+        />
+      </EXAMPLES>
       <SkillsBody>
         <H2>Skills</H2>
         <img src={JavaScriptIcon} className="img" width="60px" height="60px" />
         <img src={HTMLIcon} className="img" width="60px" height="60px" />
         <img src={CSSIcon} className="img" width="60px" height="60px" />
-        <img src={ReactIcon} className="img" width="80px" height="60px" />
+        <img src={ReactIcon} className="img" width="60px" height="60px" />
         <img src={TypeScriptIcon} className="img" width="60px" height="60px" />
         <img src={GitHubIcon} className="img" width="60px" height="60px" />
       </SkillsBody>
