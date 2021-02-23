@@ -9,6 +9,7 @@ import {
   PORTFOLIO,
   H2,
   P1,
+  P2,
   BioDiv,
   EXAMPLES,
   SkillsBody,
@@ -25,6 +26,7 @@ import CSSIcon from "./Images/CSSIcon.png";
 import ReactIcon from "./Images/ReactIcon.png";
 import TypeScriptIcon from "./Images/TypeScriptIcon.png";
 import Leaderboard from "./Images/Leaderboards.png";
+import LeaderboardMobile from "./Images/LeaderboardMobile.png";
 // Portfolio Examples
 import ConnectFourPortfolio from "./Images/ConnectFour.png";
 import TodoListPortfolio from "./Images/TodoList.png";
@@ -79,18 +81,28 @@ function App() {
       </body>
       <EXAMPLES>
         <H2>Climate Clever Internship Work</H2>
-        <P1>
-          While doing the 5 week internship with Climate Clever myself and 3
-          other interns worked on a leaderboard for users which are signed up to
-          the Climate Clever website which displays the top 3 rankings and the
-          current logged in users position
-        </P1>
-        <img
-          src={Leaderboard}
-          className="leaderboard"
-          width="500px"
-          height="550px"
-        />
+        <div className="example">
+          <div className="leaderboardText">
+            <P2>
+              While doing an Internship Program at Climate Clever one of my
+              projects was to create and maintain there Leaderboards. The
+              Leaderboard had to be created in a interactive and fun way to keep
+              users interested and engaged.
+            </P2>
+          </div>
+          <img
+            src={Leaderboard}
+            className="leaderboard"
+            width="425px"
+            height="300px"
+          />
+          <img
+            src={LeaderboardMobile}
+            className="leaderboard"
+            width="120px"
+            height="300px"
+          />
+        </div>
       </EXAMPLES>
       <SkillsBody>
         <H2>Skills</H2>

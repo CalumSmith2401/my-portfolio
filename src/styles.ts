@@ -28,6 +28,13 @@ export const P1 = styled.p(() => ({
   bottom: 0,
 }));
 
+export const P2 = styled.p(() => ({
+  color: "black",
+  textAlign: "left",
+  boxSizing: "border-box",
+  fontSize: "20px",
+}));
+
 export const BioDiv = styled.div(() => ({
   width: "35%",
   marginLeft: "auto",
@@ -46,6 +53,7 @@ export const PORTFOLIO = styled.div(() => ({
   [mediaQueries[1]]: {
     display: "flex",
     flexDirection: "column",
+    paddingBottom: "20px",
   },
   display: "flex",
   marginLeft: "auto",
@@ -53,13 +61,16 @@ export const PORTFOLIO = styled.div(() => ({
 }));
 
 export const EXAMPLES = styled.div(() => ({
-  width: "35%",
-  marginLeft: "auto",
-  marginRight: "auto",
+  [mediaQueries[1]]: {
+    display: "none",
+  },
+  paddingBottom: "30px",
 }));
 
 export const SkillsBody = styled.body(() => ({
-  [mediaQueries[0]]: {},
+  [mediaQueries[0]]: {
+    background: "white",
+  },
   paddingBottom: "100px",
   paddingTop: "20px",
   background: "lightgrey",
