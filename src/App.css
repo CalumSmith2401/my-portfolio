@@ -4,7 +4,7 @@
 
 .App-header {
   background-color: white;
-  min-height: 30vh;
+  min-height: 70vh;
   display: flex;
   align-content: center;
   flex-direction: column;
@@ -14,7 +14,7 @@
 
 .App-body {
   position: relative;
-  min-height: 40vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
@@ -23,11 +23,23 @@
 
 .App-portfolio {
   position: relative;
-  min-height: 30vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   background-color: lightgrey;
+}
+
+@media screen and (min-width: 375px) {
+  .App-body {
+    min-height: 45vh;
+  }
+  .App-header {
+    min-height: 35vh;
+  }
+  .App-portfolio {
+    min-height: 30vh;
+  }
 }
 
 .img {

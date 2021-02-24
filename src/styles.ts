@@ -39,6 +39,7 @@ export const BioDiv = styled.div(() => ({
   width: "35%",
   marginLeft: "auto",
   marginRight: "auto",
+  paddingBottom: "30px",
 }));
 
 export const FOOTER = styled.footer(() => ({
@@ -58,6 +59,7 @@ export const PORTFOLIO = styled.div(() => ({
   display: "flex",
   marginLeft: "auto",
   marginRight: "auto",
+  paddingBottom: "30px",
 }));
 
 export const EXAMPLES = styled.div(() => ({
