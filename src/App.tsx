@@ -50,7 +50,7 @@ function App() {
           </P1>
         </BioDiv>
       </body>
-      <body className="App-body">
+      <body className="App-portfolio">
         <H2>Projects</H2>
         <PORTFOLIO>
           <div>

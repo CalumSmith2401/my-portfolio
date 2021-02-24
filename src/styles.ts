@@ -62,7 +62,8 @@ export const PORTFOLIO = styled.div(() => ({
 
 export const EXAMPLES = styled.div(() => ({
   [mediaQueries[1]]: {
-    display: "none",
+    display: "flex",
+    flexDirection: "column",
   },
   paddingBottom: "30px",
 }));
