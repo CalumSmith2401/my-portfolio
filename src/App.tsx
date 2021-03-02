@@ -27,6 +27,7 @@ import ReactIcon from "./Images/ReactIcon.png";
 import TypeScriptIcon from "./Images/TypeScriptIcon.png";
 import Leaderboard from "./Images/Leaderboards.png";
 import LeaderboardMobile from "./Images/LeaderboardMobile.png";
+
 // Portfolio Examples
 import ConnectFourPortfolio from "./Images/ConnectFour.png";
 import TodoListPortfolio from "./Images/TodoList.png";

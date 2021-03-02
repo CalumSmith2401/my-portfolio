@@ -1,5 +1,11 @@
 import styled from "@emotion/styled";
 
+export const breakpoints: number[] = [576, 768, 992, 1200];
+
+export const mediaQueries: string[] = breakpoints.map(
+  (bp) => `@media (max-width: ${bp}px)`
+);
+
 export const H1 = styled.h1(() => ({
   position: "relative",
   fontSize: "70px",
@@ -33,6 +39,9 @@ export const P2 = styled.p(() => ({
   textAlign: "left",
   boxSizing: "border-box",
   fontSize: "20px",
+  [mediaQueries[3]]: {
+    textAlign: "center",
+  },
 }));
 
 export const BioDiv = styled.div(() => ({
@@ -51,36 +60,23 @@ export const FOOTER = styled.footer(() => ({
 }));
 
 export const PORTFOLIO = styled.div(() => ({
-  [mediaQueries[1]]: {
-    display: "flex",
-    flexDirection: "column",
-    paddingBottom: "20px",
-  },
   display: "flex",
   marginLeft: "auto",
   marginRight: "auto",
-  paddingBottom: "30px",
+  paddingBottom: "50px",
+  [mediaQueries[3]]: {
+    display: "flex",
+    flexDirection: "column",
+    paddingBottom: "50px",
+  },
 }));
 
 export const EXAMPLES = styled.div(() => ({
-  [mediaQueries[1]]: {
-    display: "flex",
-    flexDirection: "column",
-  },
   paddingBottom: "30px",
 }));
 
 export const SkillsBody = styled.body(() => ({
-  [mediaQueries[0]]: {
-    background: "white",
-  },
   paddingBottom: "100px",
   paddingTop: "20px",
   background: "lightgrey",
 }));
-
-export const breakpoints: number[] = [576, 768, 992, 1200];
-
-export const mediaQueries: string[] = breakpoints.map(
-  (bp) => `@media (max-width: ${bp}px)`
-);

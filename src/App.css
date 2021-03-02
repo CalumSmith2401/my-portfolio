@@ -15,6 +15,7 @@
 .App-body {
   position: relative;
   min-height: 70vh;
+  padding-bottom: 35px;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
@@ -53,8 +54,8 @@
 
 .example {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  flex-direction: column;
   justify-content: space-between;
   width: 65%;
   margin-right: auto;
@@ -63,16 +64,22 @@
   padding-bottom: 20px;
 }
 
+@media screen and (min-width: 992px) {
+  .example {
+    flex-direction: row;
+  }
+}
+
 .leaderboard {
+  display: flex;
   border: 2px solid lightgrey;
   border-radius: 10px;
   margin-right: 20px;
-}
-
-.leaderboardMobile {
+  margin-top: 20px;
 }
 
 .leaderboardText {
+  display: flex;
   padding-right: 20px;
 }
 
