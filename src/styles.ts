@@ -28,10 +28,12 @@ export const P = styled.p(() => ({
 }));
 
 export const P1 = styled.p(() => ({
-  color: "black",
+  color: "white",
   textAlign: "center",
   boxSizing: "border-box",
   bottom: 0,
+  fontWeight: 200,
+  fontSize: 25,
 }));
 
 export const P2 = styled.p(() => ({
@@ -52,9 +54,9 @@ export const BioDiv = styled.div(() => ({
 }));
 
 export const FOOTER = styled.footer(() => ({
-  background: "grey",
+  background: "white",
   width: "100%",
-  position: "fixed",
+  position: "absolute",
   padding: "5px",
   top: "0",
 }));
@@ -79,4 +81,8 @@ export const SkillsBody = styled.body(() => ({
   paddingBottom: "100px",
   paddingTop: "20px",
   background: "lightgrey",
+}));
+
+export const LINK = styled.a(() => ({
+  color: "white",
 }));

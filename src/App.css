@@ -19,7 +19,8 @@
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  background-color: lightgrey;
+  background-color: #7510f7;
+  color: white;
 }
 
 .App-portfolio {
@@ -28,7 +29,7 @@
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  background-color: lightgrey;
+  background-color: white;
 }
 
 @media screen and (min-width: 375px) {
@@ -78,11 +79,6 @@
   margin-top: 20px;
 }
 
-.leaderboardText {
-  display: flex;
-  padding-right: 20px;
-}
-
 .portfolio {
   margin-left: auto;
   margin-right: auto;
@@ -95,13 +91,11 @@
 }
 
 .Avatar {
-  height: 300px;
-  width: 300px;
-  pointer-events: none;
-  margin-bottom: 30px;
-  border-radius: 50%;
+  width: 500px;
+  height: 500px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .SocialMedia {
