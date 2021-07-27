@@ -1,5 +1,5 @@
 import "../App.css";
-import { SkillsBody, H1, H2 } from "../styles";
+import { SkillsBody, H2 } from "../styles";
 
 import GitHubIcon from "../Images/GitHubIcon.svg";
 import JavaScriptIcon from "../Images/JavaScriptIcon.svg";
@@ -12,12 +12,24 @@ function Skills() {
   return (
     <SkillsBody>
       <H2>Skills</H2>
-      <img src={JavaScriptIcon} className="img" width="60px" height="60px" />
-      <img src={HTMLIcon} className="img" width="60px" height="60px" />
-      <img src={CSSIcon} className="img" width="60px" height="60px" />
-      <img src={ReactIcon} className="img" width="60px" height="60px" />
-      <img src={TypeScriptIcon} className="img" width="60px" height="60px" />
-      <img src={GitHubIcon} className="img" width="60px" height="60px" />
+      <img
+        src={JavaScriptIcon}
+        className="img"
+        alt=""
+        width="60px"
+        height="60px"
+      />
+      <img src={HTMLIcon} className="img" alt="" width="60px" height="60px" />
+      <img src={CSSIcon} className="img" alt="" width="60px" height="60px" />
+      <img src={ReactIcon} className="img" alt="" width="60px" height="60px" />
+      <img
+        src={TypeScriptIcon}
+        className="img"
+        alt=""
+        width="60px"
+        height="60px"
+      />
+      <img src={GitHubIcon} className="img" alt="" width="60px" height="60px" />
     </SkillsBody>
   );
 }

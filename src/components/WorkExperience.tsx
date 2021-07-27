@@ -19,12 +19,14 @@ function WorkExp() {
         <img
           src={Leaderboard}
           className="leaderboard"
+          alt=""
           width="425px"
           height="300px"
         />
         <img
           src={LeaderboardMobile}
           className="leaderboard"
+          alt=""
           width="120px"
           height="300px"
         />
@@ -34,6 +36,7 @@ function WorkExp() {
         <img
           src={AndroidTV}
           className="leaderboard"
+          alt=""
           width="700px"
           height="300px"
         />

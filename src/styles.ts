@@ -47,25 +47,36 @@ export const P2 = styled.p(() => ({
 }));
 
 export const BioDiv = styled.div(() => ({
-  width: "35%",
+  width: "50%",
   marginLeft: "auto",
   marginRight: "auto",
-  paddingBottom: "30px",
+  paddingBottom: "60px",
 }));
 
 export const FOOTER = styled.footer(() => ({
   background: "white",
   width: "100%",
   position: "absolute",
-  padding: "5px",
   top: "0",
+  boxShadow: "0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8",
 }));
 
 export const PORTFOLIO = styled.div(() => ({
-  display: "flex",
   marginLeft: "auto",
   marginRight: "auto",
-  paddingBottom: "50px",
+  paddingBottom: "100px",
+  paddingLeft: "30px",
+  paddingRight: "30px",
+  marginTop: "-75px",
+  backgroundColor: "white",
+  borderRadius: "10px",
+  boxShadow: "0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8",
+}));
+
+export const PortfolioItems = styled.div(() => ({}));
+
+export const PortfolioDiv = styled.div(() => ({
+  display: "flex",
   [mediaQueries[3]]: {
     display: "flex",
     flexDirection: "column",
@@ -75,6 +86,7 @@ export const PORTFOLIO = styled.div(() => ({
 
 export const EXAMPLES = styled.div(() => ({
   paddingBottom: "30px",
+  paddingTop: "200px",
 }));
 
 export const SkillsBody = styled.body(() => ({
