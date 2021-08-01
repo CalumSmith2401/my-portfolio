@@ -15,6 +15,7 @@ function Projects() {
             <a
               href="https://trusting-hodgkin-a6c0c6.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={ConnectFourPortfolio}
@@ -30,6 +31,7 @@ function Projects() {
             <a
               href="https://dazzling-hopper-974d18.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={TodoListPortfolio}
@@ -42,7 +44,11 @@ function Projects() {
           </PortfolioItems>
           <PortfolioItems>
             <H3>Android TV IOT System</H3>
-            <a href="https://hub.corpcloud.com.au" target="_blank">
+            <a
+              href="https://hub.corpcloud.com.au"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={AndroidTVPortfolio}
                 alt="todolist"
