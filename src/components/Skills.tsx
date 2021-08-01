@@ -7,6 +7,8 @@ import HTMLIcon from "../Images/HTMLIcon.png";
 import CSSIcon from "../Images/CSSIcon.png";
 import ReactIcon from "../Images/ReactIcon.png";
 import TypeScriptIcon from "../Images/TypeScriptIcon.png";
+import AWSIcon from "../Images/AWSIcon.png";
+import GitLabIcon from "../Images/GitLabIcon.png";
 
 function Skills() {
   return (
@@ -30,6 +32,8 @@ function Skills() {
         height="60px"
       />
       <img src={GitHubIcon} className="img" alt="" width="60px" height="60px" />
+      <img src={AWSIcon} className="img" alt="" width="80px" height="60px" />
+      <img src={GitLabIcon} className="img" alt="" width="60px" height="60px" />
     </SkillsBody>
   );
 }

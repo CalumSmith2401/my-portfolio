@@ -37,17 +37,17 @@ export const P1 = styled.p(() => ({
 }));
 
 export const P2 = styled.p(() => ({
-  color: "black",
   textAlign: "left",
   boxSizing: "border-box",
   fontSize: "20px",
   [mediaQueries[3]]: {
-    textAlign: "center",
+    fontSize: "12px",
+    marginRight: "5px",
   },
 }));
 
 export const BioDiv = styled.div(() => ({
-  width: "50%",
+  width: "35%",
   marginLeft: "auto",
   marginRight: "auto",
   paddingBottom: "60px",
@@ -86,13 +86,14 @@ export const PortfolioDiv = styled.div(() => ({
 
 export const EXAMPLES = styled.div(() => ({
   paddingBottom: "30px",
-  paddingTop: "200px",
+  paddingTop: "30px",
+  marginTop: "100px",
 }));
 
 export const SkillsBody = styled.body(() => ({
   paddingBottom: "100px",
   paddingTop: "20px",
-  background: "lightgrey",
+  background: "#7510f7",
 }));
 
 export const LINK = styled.a(() => ({

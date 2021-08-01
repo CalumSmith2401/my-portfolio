@@ -12,7 +12,10 @@ function Projects() {
         <PortfolioDiv>
           <PortfolioItems>
             <H3>Connect Four</H3>
-            <a href="https://trusting-hodgkin-a6c0c6.netlify.app/">
+            <a
+              href="https://trusting-hodgkin-a6c0c6.netlify.app/"
+              target="_blank"
+            >
               <img
                 src={ConnectFourPortfolio}
                 alt="connectFour"
@@ -24,7 +27,10 @@ function Projects() {
           </PortfolioItems>
           <PortfolioItems>
             <H3>To Do List</H3>
-            <a href="https://dazzling-hopper-974d18.netlify.app/">
+            <a
+              href="https://dazzling-hopper-974d18.netlify.app/"
+              target="_blank"
+            >
               <img
                 src={TodoListPortfolio}
                 alt="androidtv"
@@ -35,8 +41,8 @@ function Projects() {
             </a>
           </PortfolioItems>
           <PortfolioItems>
-            <H3>Android TV Device</H3>
-            <a href="https://hub.corpcloud.com.au">
+            <H3>Android TV IOT System</H3>
+            <a href="https://hub.corpcloud.com.au" target="_blank">
               <img
                 src={AndroidTVPortfolio}
                 alt="todolist"
