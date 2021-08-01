@@ -28,7 +28,7 @@ export const P = styled.p(() => ({
 }));
 
 export const P1 = styled.p(() => ({
-  color: "white",
+  color: "black",
   textAlign: "center",
   boxSizing: "border-box",
   bottom: 0,
@@ -93,7 +93,7 @@ export const EXAMPLES = styled.div(() => ({
 export const SkillsBody = styled.body(() => ({
   paddingBottom: "100px",
   paddingTop: "20px",
-  background: "#7510f7",
+  background: "lightgrey",
 }));
 
 export const LINK = styled.a(() => ({
